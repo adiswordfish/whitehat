@@ -1,0 +1,20 @@
+body{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.logoutnav{
+    background-color: white;
+    color:black;
+    height: 50px;
+}
+
+#logout{
+    height: 50%;
+    font-weight: bolder;
+    padding-top: 50%;
+    padding-left: 1400px;
+    color: black;
+    text-decoration: none;
+}

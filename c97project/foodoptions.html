@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foodoptions.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Welcome</header>
+    <br>
+    <h1>Choose Your Food!</h1>
+    <br>
+    <div id="container">
+        <div class="item1">
+            <!-- <br> -->
+            <p class="item">Burger</p>
+            <p class="amont">Quantity:</p>
+            <button class="add" onclick="add()">+</button>
+            <p id="quantity" min="0">0</p>
+            <button class="minus" onclick="minus()">-</button>
+            <br>
+            <br>
+            <bp id='cost'>50</bp>
+            <bp id="costdollars">$</bp>
+        </div>
+        <!-- <br> -->
+        <div class="item2">
+            <!-- <br> -->
+            <p class="item">Pizza</p>
+            <p class="amont">Quantity:</p>
+            <button class="add" onclick="add1()">+</button>
+            <p id="quantity1" min="0">0</p>
+            <button class="minus" onclick="minus1()">-</button>
+            <br>
+            <br>
+            <bp id='cost1'>205</bp>
+            <bp id="cost1dollars">$</bp>
+        </div>
+        <!-- <br> -->
+        <div class="item3">
+            <!-- <br> -->
+            <p class="item">Garlic Bread</p>
+            <p class="amont">Quantity:</p>
+            <button class="add" onclick="add2()">+</button>
+            <p id="quantity2" min="0">0</p>
+            <button class="minus" onclick="minus2()">-</button>
+            <br>
+            <br>
+            <bp id='cost2'>130</bp>
+            <bp id="cost2dollars">$</bp>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p id="total">Cost:
+        </p>
+        <br>
+        <br>
+        <button class="proceed" onclick="Proceed()">Proceed to pay</button>
+
+    </div>
+    <script src="foodoptions.js"></script>
+</body>
+</html>

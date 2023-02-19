@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: rgb(158, 156, 21);
+}
+
+#loginsign{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input{
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+button{
+    font-size: 30px;
+    background-color: rgb(158, 156, 21);
+    /* color: #00; */
+}

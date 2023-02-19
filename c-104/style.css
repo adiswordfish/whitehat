@@ -1,0 +1,38 @@
+body
+{
+  /* color: white; */
+  background: rgb(243, 166, 142);
+  text-align: center;
+
+ }
+header
+{
+  /* width: 80%; */
+  font-size: 22px;
+}
+#camera 
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+  margin-left: 1100px;
+  margin-top: 50px;
+}
+.name_of_objects, #result_object_name  , #result_object_accuracy
+{
+  color: yellow;
+}
+
+.btn_success{
+    background-color: green; 
+}
+
+.item{
+    background-color: rgb(149, 142, 243);
+    border-radius: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin-left: 625px;
+}

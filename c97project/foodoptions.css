@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+header{
+    background-color: mediumblue;
+    font-size: 30px;
+    color: white;
+}
+
+.container p,div{
+    color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+.amont.add,#quantity,#quantity1,#quantity2{
+    display: inline;
+}
+
+.amont{
+    display: inline;
+    
+}
+
+.item{
+    font-weight: bold;
+    padding-right: 70px;
+    /* background-color: white; */
+    /* color: black; */
+    margin-top: 30px;
+}
+.item1{
+    background-color: rgb(16, 13, 49);
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 315px;
+    height: 150px;
+    float: left;
+    /* align-items: bottom; */
+    /* display: inline; */
+}
+
+.item2{
+    background-color: rgb(16, 13, 49);
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 50px;
+    height: 150px;
+    float: left;
+    /* align-items: bottom; */
+    /* margin-bottom: 100px; */
+}
+
+.item3{
+    background-color: rgb(16, 13, 49);
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 50px;
+    height: 150px;
+    float:left;
+    /* align-items: bottom; */
+}
+#container{
+    /* background: black; */
+    /* color: black; */
+
+}
+
+
+/* .amont,.add,.minus,.quantity{
+    margin-top: 30px;
+} */
+
+#total{
+    color: black;
+    font-weight: bold;
+    margin-top: 163px;
+    font-size: 30px;
+
+}
+
+.proceed{
+    color: black;
+    background-color: white;
+    font-size: 17px;
+}
