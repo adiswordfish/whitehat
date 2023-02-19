@@ -1,0 +1,16 @@
+canvas{
+    background-color:#000000;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #73cfd8;
+}
+.Song{
+background-color: tomato;
+width: 10%;
+margin-left: 45%;
+font-size: 20px;
+}
+body{
+    text-align: center;
+    
+}
