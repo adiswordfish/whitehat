@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Click next to show family members one by one
+    <img id="img1", src="Mom.png">
+    <!-- <label id="lbl">Mom</label> -->
+    <button id="changerofthings", onclick=changeimage()>next</button>
+            
+    
+    <script>
+        
+        images = ["Adi.png", "Mom.png", "Dad.png", "GrandDad.png", "Grandmom.png"]
+        labels = ["Me", "Mother", "Father", "Grandfather", "Grandmother"]
+        var i = 0
+        function changeimage(){
+            i++
+            var number_of_family_members = 5
+            if(i > number_of_family_members){
+                i = 0
+            }
+            var updatedimage = images[i]
+            var updatedlabel = labels[i]
+            document.getElementById("img1").src = updatedimage
+            document.getElementById("lbl").src = updatedlabel
+            // var image = document.getElementById('img1')
+            // var label = document.getElementById('lbl')
+            // if (image.src.match("Mom.png")){
+            //     image.src = "Dad.png"
+            // }
+
+            // await sleep(2000);
+            
+            // if (image.src.match("Dad.png")){
+            //     image.src = "GrandDad.png"
+            // }
+            
+            
+            
+            // if (image.src.match("GrandDad.png")){
+            //     image.src = "Grandmom.png"
+            // }
+            // if (image.src.match("Grandmom.png")){
+            //     image.src = "Adi.png"
+            // }
+            // if (image.src.match("Adi.png")){
+            //     image.src = "step-family-reading-a-book-clipart-transparent-cartoon-free-family-reading-png-920_851.png"
+            // }
+
+        }
+    </script>
+</body>
+</html>
